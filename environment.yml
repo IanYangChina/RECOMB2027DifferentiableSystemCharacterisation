@@ -1,0 +1,11 @@
+name: emp-pathway
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4
+  - pyyaml=6.0
+  - openpyxl=3.1      # only for scripts/00_prepare_nadh_targets.py
+  - pip
+  - pip:
+      - taichi==1.7.3

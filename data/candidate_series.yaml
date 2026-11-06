@@ -1,0 +1,28 @@
+# Prospective substrate-dilution series (Section 2.4, Supplementary S5).
+# Doses in uM.  Inputs follow emp_pathway.model.ASSAY_INPUTS:
+# [Glucose, FBP, DHAP, G3P, NAD+, ADP, ATP, Pi, 3PG]; the dose replaces the
+# entry of the varied species.  All ten enzymes at their default
+# concentrations; times on the S-E3 grid up to 500 min.
+reference: [S-E3, S-E8]
+enzymes_uM: [0.0065, 0.31, 0.52, 0.47, 0.66, 0.51, 0.45, 0.63, 0.41, 0.37]
+candidates:
+  S-Gluc:
+    species: Glucose
+    background_uM: [0.0, 625.0, 0.0, 0.0, 3500.0, 10000.0, 0.0, 10000.0, 0.0]
+    doses_uM: [0.0, 156.25, 312.5, 625.0, 1250.0, 2500.0, 5000.0]
+  S-FBP:
+    species: FBP
+    background_uM: [0.0, 0.0, 0.0, 0.0, 3500.0, 10000.0, 0.0, 10000.0, 0.0]
+    doses_uM: [0.0, 78.125, 156.25, 312.5, 625.0, 1250.0, 2500.0]
+  S-DHAP:
+    species: DHAP
+    background_uM: [0.0, 0.0, 0.0, 0.0, 3500.0, 10000.0, 0.0, 10000.0, 0.0]
+    doses_uM: [0.0, 125.0, 250.0, 500.0, 1000.0, 2000.0, 4000.0]
+  S-G3P:
+    species: G3P
+    background_uM: [0.0, 0.0, 0.0, 0.0, 3500.0, 10000.0, 0.0, 10000.0, 0.0]
+    doses_uM: [0.0, 125.0, 250.0, 500.0, 1000.0, 2000.0, 4000.0]
+  S-3PG:
+    species: 3PG
+    background_uM: [0.0, 0.0, 0.0, 0.0, 3500.0, 10000.0, 0.0, 10000.0, 0.0]
+    doses_uM: [0.0, 125.0, 250.0, 500.0, 1000.0, 2000.0, 4000.0]

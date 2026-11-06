@@ -1,0 +1,158 @@
+# Permitted range of each fitted parameter (Table S2).
+# k_cat in 1/s; K_m, K_a, K_i in uM; alpha dimensionless.
+K_cat_Glucose_s1:
+  min: 10
+  max: 1000
+K_m_Glucose_s1:
+  min: 50
+  max: 1000
+K_m_ATP_s1:
+  min: 120
+  max: 600
+K_m_G6P_s2:
+  min: 280
+  max: 8700
+K_m_F6P_s2:
+  min: 140
+  max: 1200
+K_cat_G6P_s2:
+  min: 100
+  max: 3000
+K_cat_F6P_s2:
+  min: 10
+  max: 500
+alpha_ADP_s3:
+  min: 1.001
+  max: 40
+alpha_PEP_s3:
+  min: 0.001
+  max: 0.999
+alpha_ATP_s3:
+  min: 0.001
+  max: 0.999
+K_cat_f_s3:
+  min: 3000
+  max: 9500
+K_m_F6P_s3:
+  min: 50
+  max: 500
+K_m_ATP_s3:
+  min: 200
+  max: 600
+K_a_ADP_s3:
+  min: 200
+  max: 600
+K_i_PEP_s3:
+  min: 100
+  max: 400
+K_i_ATP_s3:
+  min: 1000
+  max: 5000
+K_m_FBP_s4:
+  min: 50
+  max: 300
+K_m_DHAP_s4:
+  min: 200
+  max: 1000
+K_m_G3P_s4:
+  min: 200
+  max: 1000
+K_cat_FBP_s4:
+  min: 1
+  max: 20
+K_cat_DHAP_s4:
+  min: 10
+  max: 50
+K_m_DHAP_s5:
+  min: 707.1
+  max: 1414.2
+K_m_G3P_s5:
+  min: 212.1
+  max: 424.3
+K_cat_DHAP_s5:
+  min: 1414.2
+  max: 2828.4
+K_cat_G3P_s5:
+  min: 8485.3
+  max: 16970.6
+K_m_G3P_s6:
+  min: 1000
+  max: 4000
+K_m_NAD_s6:
+  min: 1
+  max: 80
+K_m_13BPG_s6:
+  min: 5
+  max: 100
+K_m_NADH_s6:
+  min: 20
+  max: 100
+K_cat_G3P_s6:
+  min: 100
+  max: 1200
+K_cat_NADH_s6:
+  min: 500
+  max: 2000
+K_m_ADP_s7:
+  min: 200
+  max: 1200
+K_m_13BPG_s7:
+  min: 0.01
+  max: 5
+K_m_3PG_s7:
+  min: 100
+  max: 1000
+K_m_ATP_s7:
+  min: 30
+  max: 300
+K_cat_ADP_s7:
+  min: 200
+  max: 3000
+K_cat_ATP_s7:
+  min: 1000
+  max: 8000
+K_m_3PG_s8:
+  min: 10
+  max: 500
+K_m_2PG_s8:
+  min: 10
+  max: 500
+K_cat_3PG_s8:
+  min: 50
+  max: 500
+K_cat_2PG_s8:
+  min: 50
+  max: 600
+K_m_2PG_s9:
+  min: 1
+  max: 300
+K_m_PEP_s9:
+  min: 1
+  max: 300
+K_cat_2PG_s9:
+  min: 50
+  max: 150
+K_cat_PEP_s9:
+  min: 50
+  max: 150
+K_cat_f_s10:
+  min: 200
+  max: 4000
+K_m_PEP_s10:
+  min: 1
+  max: 500
+K_m_ADP_s10:
+  min: 1
+  max: 10000
+alpha_FBP_s10:
+  min: 1.001
+  max: 30
+K_a_FBP_s10:
+  min: 1
+  max: 10000
+alpha_ATP_s10:
+  min: 0.001
+  max: 0.999
+K_i_ATP_s10:
+  min: 0.001
+  max: 10.0
